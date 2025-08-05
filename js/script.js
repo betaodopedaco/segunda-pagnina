@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Animar elementos ao rolar
-    const animateOnScroll = () => {
+    const animateOnScroll = () => {n
         const elements = document.querySelectorAll('.reveal');
         
         elements.forEach(element => {
