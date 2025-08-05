@@ -3,116 +3,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAGNOLÓGICA | Soluções Digitais Modernas</title>
+    <title>Magnológica Pro | Ferramenta de Prospecção Automatizada</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Cabeçalho -->
-    <header class="header">
-        <div class="container">
-            <a href="#" class="logo">MAG<span>NOLÓGICA</span></a>
-            
-            <nav class="nav-links">
-                <a href="#services">Serviços</a>
-                <a href="#results">Resultados</a>
-                <a href="#metrics">Métricas</a>
-                <a href="#tool">Ferramenta</a>
-            </nav>
-            
-            <a href="https://wa.me/5581984027098?text=Quero%20a%20ferramenta" class="cta-button">
-                <i class="fab fa-whatsapp"></i> Fale Conosco
-            </a>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-video-container">
+    <section class="hero" id="hero">
+        <div class="hero-video">
             <video autoplay muted loop>
                 <source src="https://assets.mixkit.co/videos/preview/mixkit-close-up-of-a-business-woman-using-laptop-4466-large.mp4" type="video/mp4">
             </video>
+            <div class="video-overlay"></div>
         </div>
-        
-        <div class="hero-content">
-            <div class="hero-subtitle">SOLUÇÕES DIGITAIS MODERNAS</div>
-            <h1 class="hero-title">Criação de Presença Digital de Alto Nível</h1>
-            <p class="hero-text">Conectamos você ao mundo digital com presença, valor e impacto.</p>
-            
-            <div class="hero-buttons">
-                <a href="#services" class="btn btn-primary">Nossos Serviços</a>
-                <a href="https://wa.me/5581984027098?text=Quero%20a%20ferramenta" class="btn btn-secondary">
-                    <i class="fab fa-whatsapp"></i> Fale Agora no WhatsApp
-                </a>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Descubra o Poder da Prospecção Magnológica</h1>
+                <p class="hero-subtitle">A tecnologia que entrega resultados reais em poucos cliques.</p>
+                <a href="https://wa.me/5581984027098?text=Quero%20a%20ferramenta" class="cta-button">Solicitar Acesso à Ferramenta</a>
             </div>
         </div>
     </section>
 
-    <!-- Serviços -->
-    <section id="services" class="services">
+    <section class="results" id="results">
         <div class="container">
-            <div class="section-header">
-                <div class="section-subtitle">O QUE FAZEMOS</div>
-                <h2 class="section-title">Nossos Serviços Premium</h2>
-                <p class="section-text">Soluções digitais que transformam negócios locais em referências de mercado</p>
-            </div>
-            
-            <div class="services-grid">
-                <!-- Cards de serviços... -->
+            <h2 class="section-title">Resultados Visíveis em Poucos Dias</h2>
+            <div class="results-grid">
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="result-number">+50</div>
+                    <div class="result-text">empresas alcançadas por dia</div>
+                </div>
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-address-book"></i>
+                    </div>
+                    <div class="result-number">+300</div>
+                    <div class="result-text">contatos úteis por semana</div>
+                </div>
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="result-text">Resultados em menos de 72h</div>
+                </div>
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-shapes"></i>
+                    </div>
+                    <div class="result-text">Compatível com qualquer nicho</div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Resultados -->
-    <section id="results" class="results">
+    <section class="metrics" id="metrics">
         <div class="container">
-            <div class="results-container">
-                <!-- Conteúdo de resultados... -->
+            <h2 class="section-title">Métricas em Tempo Real</h2>
+            <div class="metrics-content">
+                <div class="dashboard">
+                    <img src="https://i.ibb.co/ZpZgVz9S/Screenshot-25.png" alt="Dashboard Magnológica">
+                </div>
+                <div class="metrics-list">
+                    <div class="metric-item">
+                        <div class="metric-value">1.250+</div>
+                        <div class="metric-label">Contatos gerados</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-value">15 regiões</div>
+                        <div class="metric-label">Cobertura nacional</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-value">42%</div>
+                        <div class="metric-label">Taxa de resposta média</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    
-    <!-- Métricas -->
-    <section id="metrics" class="metrics">
+
+    <section class="testimonials" id="testimonials">
         <div class="container">
-            <!-- Conteúdo de métricas... -->
-        </div>
-    </section>
-    
-    <!-- Ferramenta -->
-    <section id="tool" class="tool">
-        <div class="container">
-            <!-- Conteúdo da ferramenta... -->
-        </div>
-    </section>
-    
-    <!-- Sobre Nós -->
-    <section class="about">
-        <div class="container">
-            <!-- Conteúdo sobre nós... -->
+            <h2 class="section-title">O que dizem nossos clientes</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">"A ferramenta reduziu nosso tempo de prospecção em 80%. Agora focamos apenas em vender!"</div>
+                    <div class="testimonial-author">Carlos Silva</div>
+                    <div class="testimonial-role">Diretor Comercial, TechSolutions</div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">"Em uma semana já tínhamos contatos suficientes para um mês inteiro de trabalho."</div>
+                    <div class="testimonial-author">Mariana Oliveira</div>
+                    <div class="testimonial-role">CEO, Boutique Digital</div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">"A precisão dos dados nos surpreendeu. Economizamos milhares em prospecção ineficiente."</div>
+                    <div class="testimonial-author">Ricardo Fernandes</div>
+                    <div class="testimonial-role">Gerente de Vendas, ConstruMax</div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Contato -->
-    <section id="contact" class="contact-section">
+    <section class="demo" id="demo">
         <div class="container">
-            <!-- Formulário de contato... -->
+            <div class="demo-content">
+                <div class="demo-text">
+                    <h2 class="section-title">Simples, Poderoso, Eficiente</h2>
+                    <p class="section-subtitle">Veja como nossa ferramenta transforma sua prospecção em poucos passos</p>
+                    <div class="demo-steps">
+                        <div class="demo-step">
+                            <div class="step-number">1</div>
+                            <div class="step-text">Defina seu público e região</div>
+                        </div>
+                        <div class="demo-step">
+                            <div class="step-number">2</div>
+                            <div class="step-text">Ative a prospecção automática</div>
+                        </div>
+                        <div class="demo-step">
+                            <div class="step-number">3</div>
+                            <div class="step-text">Receba contatos qualificados</div>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5581984027098?text=Quero%20testar%20a%20ferramenta" class="cta-button">Quero testar agora</a>
+                </div>
+                <div class="demo-image">
+                    <img src="https://i.ibb.co/PGByfZHf/Screenshot-24.png" alt="Demonstração da Ferramenta">
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- WhatsApp Button -->
-    <a href="https://wa.me/5581984027098?text=Quero%20a%20ferramenta" class="whatsapp-button">
+    <section class="comparison" id="comparison">
+        <div class="container">
+            <h2 class="section-title">Por que somos diferentes</h2>
+            <div class="comparison-content">
+                <div class="comparison-table">
+                    <div class="table-header">
+                        <div class="header-feature">Recurso</div>
+                        <div class="header-option">Ferramentas Comuns</div>
+                        <div class="header-option">Magnológica Pro</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="row-feature">Contatos diários</div>
+                        <div class="row-option">5-10</div>
+                        <div class="row-option">30-50</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="row-feature">Precisão dos dados</div>
+                        <div class="row-option">60-70%</div>
+                        <div class="row-option">95%+</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="row-feature">Atualização em tempo real</div>
+                        <div class="row-option"><i class="fas fa-times"></i></div>
+                        <div class="row-option"><i class="fas fa-check"></i></div>
+                    </div>
+                    <div class="table-row">
+                        <div class="row-feature">Suporte especializado</div>
+                        <div class="row-option">Básico</div>
+                        <div class="row-option">Premium 24/7</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="row-feature">Integração com CRM</div>
+                        <div class="row-option">Limitada</div>
+                        <div class="row-option">Completa</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="final-cta" id="final-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Seu próximo cliente está a um clique</h2>
+                <p class="cta-subtitle">Comece a prospectar com inteligência e eficiência hoje mesmo</p>
+                <a href="https://wa.me/5581984027098?text=Quero%20a%20ferramenta" class="big-cta">Solicitar Ferramenta Agora</a>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/5581984027098?text=Quero%20a%20ferramenta" class="whatsapp-float">
         <i class="fab fa-whatsapp"></i>
     </a>
 
-    <!-- Rodapé -->
-    <footer class="footer">
-        <div class="container">
-            <!-- Conteúdo do rodapé... -->
-        </div>
-    </footer>
-
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
